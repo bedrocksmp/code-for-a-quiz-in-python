@@ -1,0 +1,40 @@
+#QUIZ
+import time
+print('Please Answer In CAPITAL LETTERS ONLY!!!')
+time.sleep(1)
+print('Who invented the ANALYTICAL ENGINE?')
+time.sleep(0.5)
+choice=input('>>> ')
+babbage=['CHARLES BABBAGE']
+if choice in babbage:
+    time.sleep(0.5)
+    print('Correct')
+else:
+    print('Incorrect')
+time.sleep(1)
+print('What is the full form of A.I.?')
+time.sleep(0.5)
+choice=input('>>> ')
+ai=['ARTIFICIAL INTELLIGENCE']
+if choice in ai:
+    print('Correct')
+else:
+    print('Incorrect')
+time.sleep(0.5)
+print('What is GOOGOL?')
+time.sleep(0.5)
+print('Option-A = A Search Engine')
+time.sleep(0.5)
+print('Option-B = A Number')
+time.sleep(0.1)
+print('Answer as "option a" or "option b"')
+choice=input('>>> ')
+a=['option b']
+if choice in a:
+    print('Correct')
+else:
+    print('Incorrect')
+
+time.sleep(1)
+
+print('THE QUIZ HAS ENDED')
